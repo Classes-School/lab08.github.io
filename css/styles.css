@@ -162,8 +162,13 @@ ul.war-list li {
 
 /* Hover effect for war list items */
 ul.war-list li:hover {
-    background-color: #E0E0E0;
+    background-color: #c27676;
 }
+
+ul.war-list :nth-child(even) {
+    background-color: #e5e5e5;
+}
+
 
 /* Style for the citations list */
 .citations-list {
@@ -182,9 +187,6 @@ ul.war-list li:hover {
     color: #333;
 }
 
-.citations-list li:nth-child() {
-    background-color: #007BFF;
-}
 /* Style for citation links */
 .citations-list a {
     color: #007BFF;
@@ -205,20 +207,7 @@ ul.war-list li:hover {
     padding-left: 0;
 }
   
-/* Style for individual citation items (list items) inside the flowing-boxes class */
-.flowing-boxes li {
-    flex-basis: 200px; 
-    list-style-type: none;
-    margin: 10px; 
-    padding: 10px; 
-    border: 1px solid #ccc; 
-    border-radius: 5px;
-    background-color: #f0f0f0; 
-    font-size: 16px;
-    line-height: 1.4;
-    color: #333;
-}
-  
+
 /* Style for citation links within list items */
 .flowing-boxes li a {
     color: #007BFF; 
@@ -230,3 +219,4 @@ ul.war-list li:hover {
 .flowing-boxes li a:hover {
     color: #FF5733; 
 } 
+
