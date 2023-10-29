@@ -68,7 +68,7 @@ h1 {
 .fix-to-screen {
     color: #f0f0f0; 
     padding: 10px 0;
-    margin: 0 0 0 0;
+    margin: 10px 0 0 0 0;
     background-color: #9d4a4a; 
     z-index: 1;
 }
@@ -220,3 +220,16 @@ ul.war-list :nth-child(even) {
     color: #FF5733; 
 } 
 
+/* Style for individual citation items (list items) inside the flowing-boxes class */
+.flowing-boxes li {
+    flex-basis: 200px; 
+    list-style-type: none;
+    margin: 10px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    background-color: #f0f0f0; 
+    font-size: 16px;
+    line-height: 1.4;
+    color: #333;
+}
