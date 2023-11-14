@@ -14,6 +14,10 @@ body {
     padding: 20px;
 }
 
+nav {
+    margin-top: 70px;
+}
+
 /* Style for the container */
 .container {
     width: 90%; 
@@ -37,7 +41,7 @@ body {
 }  
  
 /* Group selector for the header, footer and lead */
-.container header, .container footer, .lead {
+.container header, .container footer, .lead, nav {
     grid-column: 1 / 3; 
 }
   
@@ -69,7 +73,7 @@ h1 {
     color: #f0f0f0; 
     padding: 10px 0;
     background-color: #9d4a4a; 
-    z-index: 1;
+    z-index: 0;
 }
 
 
