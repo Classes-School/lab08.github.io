@@ -25,7 +25,19 @@ nav {
     margin: 0 auto; 
     display: grid;
     grid-template-columns: 2fr 1fr;
-  }
+}
+
+.lead {
+    background-image: url("../images/napoleon-lead-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lead p {
+    line-height: 1.9;
+    color: #202100
+}
 
 /* Style for the lead section */
 .container .lead {
@@ -87,6 +99,10 @@ h2 {
     text-transform: uppercase;
     border-bottom: 1px solid #AD235D;
     margin-bottom: 20px;
+    background-image: url('../images/logo.png'); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 38px;
 }
 
 /* Style the first letter of <p> under <h2> */
